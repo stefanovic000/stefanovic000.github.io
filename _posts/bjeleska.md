@@ -1,8 +1,9 @@
 ---
 title: Scraping google earth data
 date: 2025-06-07
-categories: 
+categories: other
 tags:
+  - other
 ---
 # Big balls
 ### small balls
@@ -36,5 +37,3 @@ document.getElementById("demo").innerHTML = value;
 </html>
 
 ```
-
-==lol ngl==
