@@ -8,7 +8,7 @@ I needed the model of our city for a new game. After some research, I found out 
 
 Going through many versions of RenderDoc, Blender and browsers, I found exact versions and browser that work.
 ## Requirements
-To extract 3d data we are going to need following:
+To extract 3d data we are going to need following: 
 - RenderDoc v1.19[^1]
 - Blender v2.93.0[^2]
 - Microsoft edge v138.0.3351.65[^3]
