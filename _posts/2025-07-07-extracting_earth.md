@@ -25,6 +25,7 @@ You can do this by creating shortcut on you desktop:
  ![creation of shortcut]({{site.baseurl}}/assets/images/create_shortcut.png)
  
 And paste location from up above:
+
  ![creation of shortcut]({{site.baseurl}}/assets/images/shortcut_location.png)
  ![creation of shortcut]({{site.baseurl}}/assets/images/shortcut_name.png)
 
@@ -34,33 +35,43 @@ And paste location from up above:
 ### 2. Open RenderDoc, setup it
 First, we need to enable process injection.
 You are going to do this by going to tools and settings:
+
  ![creation of shortcut]({{site.baseurl}}/assets/images/renderdoc_settings.png)
 Check this option on general tab:
+
  ![creation of shortcut]({{site.baseurl}}/assets/images/renderdoc_injection.png)
 **And restart the program**
 ### 3. Injection to Microsoft Edge process
 Open you microsoft edge shortcut:
+
  ![creation of shortcut]({{site.baseurl}}/assets/images/edge_icon.png)
 
 And you are going to get white windows, alongside small window with some number:
+
  ![creation of shortcut]({{site.baseurl}}/assets/images/edge_popup.png)
 Dont close it, yet.
 
 Go back to RenderDoc and go to File, Inject to process
+
  ![creation of shortcut]({{site.baseurl}}/assets/images/renderdoc_injectWindow.png)
 
 In the filter box type your number (pid) you got eariler from opening microsoft edge, click refresh:
+
  ![creation of shortcut]({{site.baseurl}}/assets/images/renderdoc_injectWindow2.png)
 Select msedge.exe with your number (pid), Correct Window Title is Microsoft Edge Gpu.
 
 Click the inject button:
+
  ![creation of shortcut]({{site.baseurl}}/assets/images/renderdoc_injectButton.png)
 
 You can now close small microsoft edge popup from earlier.
 ### 4. Extracting google earth data
 yey
 
+#### Footnotes
+---
 [^1]: You can download exact version of RenderDoc from their website:
+	
 	[https://renderdoc.org/builds](https://renderdoc.org/builds)
 	
 	Or you can use direct link from their website (1.19 64bit)
@@ -70,15 +81,24 @@ yey
 	You can also use portable version of this program
 
 [^2]: You can download exact version of blender from their website:
+	
 	https://download.blender.org/release/
+	
 	Or you can use direct link from their website (2.93.0)
+	
 	https://download.blender.org/release/Blender2.93/
+	
 	You will need this on windows 64 bit system:
+	
 	**blender-2.93.0-windows-x64.msi**
 
 [^3]: You can download exact microsoft edge version on bottom of this page:
+	
 	https://www.microsoft.com/en-us/edge/business/download?form=MA13FJ
-	This is the latest version at the moment I am writing at, and it is the version that worked. There is possibilty that version of microsoft edge is not important.
+	
+	This is the latest version at the moment I am writing at, and it is the version that worked. There is possibilty 
+	
+	that version of microsoft edge is not important.
 	
 	Previously I tried using google chrome, but it didn't work.
 
