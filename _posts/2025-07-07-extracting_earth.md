@@ -22,7 +22,7 @@ C:\Windows\System32\cmd.exe /c "SET RENDERDOC_HOOK_EGL=0 && START "" ^"C:\Progra
 
 You can do this by creating shortcut on you desktop:
 
- ![creation of shortcut]({site.baseurl}/assets/images/create_shortcut.png)
+![creation of shortcut]({{site.baseurl}}/assets/lib/images/create_shortcut.png)
  
 And paste location from up above:
 ![[Pasted image 20250707210744.png]]
