@@ -4,7 +4,7 @@ date: 2025-07-07
 categories: journey
 ---
 ## Journey
-I needed model of our city for a new game. After some research, I found out that best way to do this is using RenderDoc program, it is made by Baldur Karlsson.
+I needed the model of our city for a new game. After some research, I found out that best way to do this is using RenderDoc program, it is made by Baldur Karlsson.
 
 Going through many versions of RenderDoc, Blender and browsers, I found exact versions and browser that work.
 ## Requirements
@@ -21,7 +21,8 @@ C:\Windows\System32\cmd.exe /c "SET RENDERDOC_HOOK_EGL=0 && START "" ^"C:\Progra
 ```
 
 You can do this by creating shortcut on you desktop:
-![[Pasted image 20250707211456.png]]
+![creation of shortcut](/assets/create_shortcut.png)
+![[create_shortcut.png]]
 And paste location from up above:
 ![[Pasted image 20250707210744.png]]
 ![[Pasted image 20250707211304.png]]
@@ -60,9 +61,12 @@ You can now close small microsoft edge popup from earlier.
 yey
 
 [^1]: You can download exact version of RenderDoc from their website:
-	https://renderdoc.org/builds
+	[https://renderdoc.org/builds](https://renderdoc.org/builds)
+	
 	Or you can use direct link from their website (1.19 64bit)
+	
 	https://renderdoc.org/stable/1.19/RenderDoc_1.19_64.msi
+	
 	You can also use portable version of this program
 
 [^2]: You can download exact version of blender from their website:
