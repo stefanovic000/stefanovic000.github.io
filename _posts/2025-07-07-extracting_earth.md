@@ -37,9 +37,11 @@ First, we need to enable process injection.
 You are going to do this by going to tools and settings:
 
  ![creation of shortcut]({{site.baseurl}}/assets/images/renderdoc_settings.png)
+
 Check this option on general tab:
 
  ![creation of shortcut]({{site.baseurl}}/assets/images/renderdoc_injection.png)
+
 **And restart the program**
 ### 3. Injection to Microsoft Edge process
 Open you microsoft edge shortcut:
@@ -49,6 +51,7 @@ Open you microsoft edge shortcut:
 And you are going to get white windows, alongside small window with some number:
 
  ![creation of shortcut]({{site.baseurl}}/assets/images/edge_popup.png)
+
 Dont close it, yet.
 
 Go back to RenderDoc and go to File, Inject to process
@@ -80,7 +83,7 @@ yey
 	
 	You can also use portable version of this program
 
-[^2]: You can download exact version of blender from their website:
+[^2]: You can download exact version of Blender from their website:
 	
 	[https://download.blender.org/release/](https://download.blender.org/release/)
 	
@@ -88,17 +91,16 @@ yey
 	
 	[https://download.blender.org/release/Blender2.93/](https://download.blender.org/release/Blender2.93/)
 	
-	You will need this on windows 64 bit system:
+	You will need this on Windows 64 bit system:
 	
 	**blender-2.93.0-windows-x64.msi**
 
-[^3]: You can download exact microsoft edge version on bottom of this page:
+[^3]: You can download exact Microsoft Edge version on bottom of this page:
 	
 	[https://www.microsoft.com/en-us/edge/business/download?form=MA13FJ](https://www.microsoft.com/en-us/edge/business/download?form=MA13FJ)
 	
-	This is the latest version at the moment I am writing at, and it is the version that worked. There is possibilty 
+	This is the latest version at the moment I am writing at, and it is the version that worked. There is possibility 
+	that version of Microsoft Edge is not important.
 	
-	that version of microsoft edge is not important.
-	
-	Previously I tried using google chrome, but it didn't work.
+	Previously I tried using Google Chrome, but it didn't work.
 
