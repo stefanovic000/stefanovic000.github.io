@@ -76,17 +76,17 @@ yey
 	
 	Or you can use direct link from their website (1.19 64bit)
 	
-	https://renderdoc.org/stable/1.19/RenderDoc_1.19_64.msi
+	[https://renderdoc.org/stable/1.19/RenderDoc_1.19_64.msi](https://renderdoc.org/stable/1.19/RenderDoc_1.19_64.msi)
 	
 	You can also use portable version of this program
 
 [^2]: You can download exact version of blender from their website:
 	
-	https://download.blender.org/release/
+	[https://download.blender.org/release/](https://download.blender.org/release/)
 	
 	Or you can use direct link from their website (2.93.0)
 	
-	https://download.blender.org/release/Blender2.93/
+	[https://download.blender.org/release/Blender2.93/](https://download.blender.org/release/Blender2.93/)
 	
 	You will need this on windows 64 bit system:
 	
@@ -94,7 +94,7 @@ yey
 
 [^3]: You can download exact microsoft edge version on bottom of this page:
 	
-	https://www.microsoft.com/en-us/edge/business/download?form=MA13FJ
+	[https://www.microsoft.com/en-us/edge/business/download?form=MA13FJ](https://www.microsoft.com/en-us/edge/business/download?form=MA13FJ)
 	
 	This is the latest version at the moment I am writing at, and it is the version that worked. There is possibilty 
 	
