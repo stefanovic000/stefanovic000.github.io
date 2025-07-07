@@ -22,11 +22,11 @@ C:\Windows\System32\cmd.exe /c "SET RENDERDOC_HOOK_EGL=0 && START "" ^"C:\Progra
 
 You can do this by creating shortcut on you desktop:
 
- ![creation of shortcut]({site.baseurl}/assets/images/create_shortcut.png)
+ ![creation of shortcut]({{site.baseurl}}/assets/images/create_shortcut.png)
  
 And paste location from up above:
- ![creation of shortcut]({site.baseurl}/assets/images/shortcut_location.png)
- ![creation of shortcut]({site.baseurl}/assets/images/shortcut_name.png)
+ ![creation of shortcut]({{site.baseurl}}/assets/images/shortcut_location.png)
+ ![creation of shortcut]({{site.baseurl}}/assets/images/shortcut_name.png)
 
 > If you made shortcut this way, it is going to have icon of cmd.exe.
 > If you make shortcut from microsoft edge exe file, and edit its properties, it is going to have microsft edge icon. Not relevant to our objective, but so you don't get confused by the icon. 
@@ -34,27 +34,27 @@ And paste location from up above:
 ### 2. Open RenderDoc, setup it
 First, we need to enable process injection.
 You are going to do this by going to tools and settings:
- ![creation of shortcut]({site.baseurl}/assets/images/renderdoc_settings.png)
+ ![creation of shortcut]({{site.baseurl}}/assets/images/renderdoc_settings.png)
 Check this option on general tab:
- ![creation of shortcut]({site.baseurl}/assets/images/renderdoc_injection.png)
+ ![creation of shortcut]({{site.baseurl}}/assets/images/renderdoc_injection.png)
 **And restart the program**
 ### 3. Injection to Microsoft Edge process
 Open you microsoft edge shortcut:
- ![creation of shortcut]({site.baseurl}/assets/images/edge_icon.png)
+ ![creation of shortcut]({{site.baseurl}}/assets/images/edge_icon.png)
 
 And you are going to get white windows, alongside small window with some number:
- ![creation of shortcut]({site.baseurl}/assets/images/edge_popup.png)
+ ![creation of shortcut]({{site.baseurl}}/assets/images/edge_popup.png)
 Dont close it, yet.
 
 Go back to RenderDoc and go to File, Inject to process
- ![creation of shortcut]({site.baseurl}/assets/images/renderdoc_injectWindow.png)
+ ![creation of shortcut]({{site.baseurl}}/assets/images/renderdoc_injectWindow.png)
 
 In the filter box type your number (pid) you got eariler from opening microsoft edge, click refresh:
- ![creation of shortcut]({site.baseurl}/assets/images/renderdoc_injectWindow2.png)
+ ![creation of shortcut]({{site.baseurl}}/assets/images/renderdoc_injectWindow2.png)
 Select msedge.exe with your number (pid), Correct Window Title is Microsoft Edge Gpu.
 
 Click the inject button:
- ![creation of shortcut]({site.baseurl}/assets/images/injectButton.png)
+ ![creation of shortcut]({{site.baseurl}}/assets/images/injectButton.png)
 
 You can now close small microsoft edge popup from earlier.
 ### 4. Extracting google earth data
