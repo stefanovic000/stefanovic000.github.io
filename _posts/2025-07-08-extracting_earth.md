@@ -12,6 +12,7 @@ To extract 3d data we are going to need following:
 - RenderDoc v1.19[^1]
 - Blender v2.93.0[^2]
 - Microsoft edge v138.0.3351.65[^3]
+- MapsModelsImporter v0.4.1[^4]
 
 ## Steps
 
@@ -90,7 +91,7 @@ In my experience, closer you zoom in, more details you get. But you will get les
 After some research, I found out a little trick for getting more details without zooming so much, so you can get more area:
 	When using Microsoft Edge, you can click three dots in top right corner, and set zoom to 25%. This will load more details, like when you get closer.
 
-### 5. Extracting 3d data
+### 5. Extracting 3D data
 
 Go back to RenderDoc, and you will see this section:
 
@@ -170,3 +171,8 @@ You have now installed add-on. You can close "Preferences window".
 	
 	Previously I tried using Google Chrome, but it didn't work.
 
+[^4]: You can download exact MapsModelsImporter version on bottom of this page:
+	
+	[https://github.com/eliemichel/MapsModelsImporter/releases/tag/v0.4.1-rc1](https://github.com/eliemichel/MapsModelsImporter/releases/tag/v0.4.1-rc1)
+	
+	Keep file in .zip format. You will load it directly to Blender.
