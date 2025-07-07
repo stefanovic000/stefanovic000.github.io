@@ -54,7 +54,7 @@ In the filter box type your number (pid) you got eariler from opening microsoft 
 Select msedge.exe with your number (pid), Correct Window Title is Microsoft Edge Gpu.
 
 Click the inject button:
- ![creation of shortcut]({{site.baseurl}}/assets/images/injectButton.png)
+ ![creation of shortcut]({{site.baseurl}}/assets/images/renderdoc_injectButton.png)
 
 You can now close small microsoft edge popup from earlier.
 ### 4. Extracting google earth data
