@@ -34,7 +34,7 @@ And paste location from up above:
 
 > If you made shortcut this way, it is going to have icon of cmd.exe.
 > If you make shortcut from microsoft edge exe file, and edit its properties, it is going to have microsft edge icon. Not relevant to our objective, but so you don't get confused by the icon. 
-
+{: .prompt-tip }
 ### 2. Open RenderDoc, do the setup
 First, we need to enable process injection.
 
@@ -109,7 +109,6 @@ If your file is a lot smaller size, there is possibility that there is no actual
 
 > Previously to realizing that capture can happen without catching 3d data, I tought problem was in this combination of program versions. I tought there was problem in this version of RenderDoc. After that I tought problem was in MapsModelsImporter or Blender version, because I get error when importing capture to Blender. But sometimes, capture doesn't contain important part of data. (When file size is too small, that can give you a hint). Also you can use Texture Viewer tab to be sure, but that is a little bit more advanced.
 {: .prompt-tip }
-
 ### 6. Saving capture to computer
 Right click on your capture, and click save:
 
