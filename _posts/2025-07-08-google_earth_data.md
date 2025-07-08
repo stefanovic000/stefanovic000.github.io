@@ -176,3 +176,5 @@ You have now installed add-on. You can close "Preferences window".
 	[https://github.com/eliemichel/MapsModelsImporter/releases/tag/v0.4.1-rc1](https://github.com/eliemichel/MapsModelsImporter/releases/tag/v0.4.1-rc1)
 	
 	Keep file in .zip format. You will load it directly to Blender.
+
+*Only for educational purposes*
