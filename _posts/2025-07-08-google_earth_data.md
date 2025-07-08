@@ -108,6 +108,7 @@ Click the button and switch window to Microsoft Edge, after previously set time 
 If your file is a lot smaller size, there is possibility that there is no actual 3d (polygon) data. In my experience it happens sometimes, **but you can try moving your map after clicking "Trigger after delay", and stopping before actual capture happens.**
 
 > Previously to realizing that capture can happen without catching 3d data, I tought problem was in this combination of program versions. I tought there was problem in this version of RenderDoc. After that I tought problem was in MapsModelsImporter or Blender version, because I get error when importing capture to Blender. But sometimes, capture doesn't contain important part of data. (When file size is too small, that can give you a hint). Also you can use Texture Viewer tab to be sure, but that is a little bit more advanced.
+{: .prompt-tip }
 
 ### 6. Saving capture to computer
 Right click on your capture, and click save:
