@@ -82,7 +82,7 @@ In your previously opened Microsoft Edge, open google earth:
 
 Pick your location and move to it.
 
-For this example we are goint to Zürich, Switzerland:
+For this example we are going to Zürich, Switzerland:
 
 ![zurich picture]({{site.baseurl}}/assets/images/zurich.png)
 
