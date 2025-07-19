@@ -23,7 +23,7 @@ You need to make shortcut of microsoft edge with some specific parameters, we ar
 C:\Windows\System32\cmd.exe /c "SET RENDERDOC_HOOK_EGL=0 && START "" ^"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe^" --disable-gpu-sandbox --disable_direct_composition=1 --gpu-startup-dialog"
 ```
 
-You can do this by creating shortcut on you desktop:
+You can do this by creating shortcut on your desktop:
 
  ![creation of shortcut]({{site.baseurl}}/assets/images/create_shortcut.png)
  
