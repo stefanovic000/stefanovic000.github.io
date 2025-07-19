@@ -16,7 +16,7 @@ To extract 3d data we are going to need following:
 
 ## Steps
 
-### 1. Create microsoft edge shortcut
+### 1. Create microsoft edge shortcut.
 You need to make shortcut of microsoft edge with some specific parameters, we are going to assume you have microsoft edge on default windows location:
 
 ```bash
@@ -35,7 +35,7 @@ And paste location from up above:
 > If you made shortcut this way, it is going to have icon of cmd.exe.
 > If you make shortcut from microsoft edge exe file, and edit its properties, it is going to have microsft edge icon. Not relevant to our objective, but so you don't get confused by the icon. 
 {: .prompt-tip }
-### 2. Open RenderDoc, do the setup
+### 2. Open RenderDoc, doing the setup.
 First, we need to enable process injection.
 
 You are going to do this by going to tools and settings:
@@ -47,7 +47,7 @@ Check this option on general tab:
  ![creation of shortcut]({{site.baseurl}}/assets/images/renderdoc_injection.png)
 
 **And restart the program**
-### 3. Injection to Microsoft Edge process
+### 3. Injection to Microsoft Edge process.
 
 Open you microsoft edge shortcut:
 
@@ -73,7 +73,7 @@ Click the inject button:
  ![creation of shortcut]({{site.baseurl}}/assets/images/renderdoc_injectButton.png)
 
 You can now close small microsoft edge popup from earlier.
-### 4. Choosing location
+### 4. Choosing location.
 
 In your previously opened Microsoft Edge, open google earth:
 
@@ -91,7 +91,7 @@ In my experience, closer you zoom in, more details you get. But you will get les
 After some research, I found out a little trick for getting more details without zooming so much, so you can get more area:
 	When using Microsoft Edge, you can click three dots in top right corner, and set zoom to 25%. This will load more details, like when you get closer.
 
-### 5. Extracting 3D data
+### 5. Extracting 3D data.
 
 Go back to RenderDoc, and you will see this section:
 
@@ -109,14 +109,15 @@ If your file is a lot smaller size, there is possibility that there is no actual
 
 > Previously to realizing that capture can happen without catching 3d data, I tought problem was in this combination of program versions. I tought there was problem in this version of RenderDoc. After that I tought problem was in MapsModelsImporter or Blender version, because I get error when importing capture to Blender. But sometimes, capture doesn't contain important part of data. (When file size is too small, that can give you a hint). Also you can use Texture Viewer tab to be sure, but that is a little bit more advanced.
 {: .prompt-tip }
-### 6. Saving capture to computer
+### 6. Saving capture to computer.
+
 Right click on your capture, and click save:
 
 ![capture save]({{site.baseurl}}/assets/images/capture_save.png)
 
 Save it to folder of your choice. (I am not sure if specific file location can be problematic for blender extention accessing file). File extension will be **.rdc**
 
-### 7. Installing Blender add-on
+### 7. Installing Blender add-on.
 
 Open Blender that you previously installed, and open new empty general file.
 
@@ -139,6 +140,39 @@ Activate add-on by clicking on checkbox.
 ![addon check]({{site.baseurl}}/assets/images/addon_check.png)
 
 You have now installed add-on. You can close "Preferences window".
+
+### 8. Loading .rdc model into Blender.
+
+After you have installed the extension. It's time to load .rdc into blender.
+
+First, if you have loaded default Blender project, you should first delete the cube, so it doesn't annoy us. You can do that by clicking on Cube and pressing  **'x'** and confirming it.
+
+To import **.rdc** file, go to section File, Import and select **Google Maps Capture (.rdc)**
+
+![import rdc]({{site.baseurl}}/assets/images/import_rdc.png)
+
+Find your **.rdc** file, and select it. After clicking Import button, depending on size of your model, you can wait a long time for it to load.
+
+> This is the part when most errors show up. In case it does, you should check if your **.rdc** file actually captured map data. You should also check if you have correct versions of all previously used programs and correct version of extension.
+{: .prompt-warning}
+
+![zurich rendered]({{site.baseurl}}/assets/images/zurich_rendered.png)
+
+Now it has loaded, you can press button **'z'**, and select "Rendered" or "Material preview" to see model colors.
+
+### 9. (Optional) Export model into different file format.
+
+You can export your model into different format, by going to File, Export and choosing needed file extension type.
+
+![exporting]({{site.baseurl}}/assets/images/exporting.png)
+
+# The end.
+
+Congrats, now you have done something that took me 2 days, in 30 minutes.
+
+Feel free to ask questions below.
+
+
 #### Footnotes
 ---
 [^1]: You can download exact version of RenderDoc from their website:
